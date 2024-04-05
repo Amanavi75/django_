@@ -10,8 +10,13 @@
 
 
 ---adding templates for the website----
+
 -> create a folder to store the templates in root folder
 
 -> goto settings.py file of project include the path in "DIR" of template array  
 
 ->go to views.py of app then write render function to add the template
+
+-> two curly braces is used to inject the variable value 
+
+-> this is called DLT (django template language)
