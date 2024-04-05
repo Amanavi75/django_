@@ -1,0 +1,17 @@
+------starting with the first app---
+
+
+-> django-admin startproject name
+-> python manage.py startapp appname : used to create new project in folder
+
+->python manage.py runserver : this command is used to run the server 
+
+-> urls.py : file where the all the routing and related paths were connected
+
+
+---adding templates for the website----
+-> create a folder to store the templates in root folder
+
+-> goto settings.py file of project include the path in "DIR" of template array  
+
+->go to views.py of app then write render function to add the template
