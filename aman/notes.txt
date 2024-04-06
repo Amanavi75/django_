@@ -20,3 +20,20 @@
 -> two curly braces is used to inject the variable value 
 
 -> this is called DLT (django template language)
+
+--connecting two html pages ----
+
+
+{%extends 'base.html'%}
+
+{%block content%}
+<h1> Hello {{name}} </h1>
+
+{%endblock%}
+
+
+----htmlpage 2  from where we want to connect --------
+
+{%block content%}
+
+    {% endblock %}
